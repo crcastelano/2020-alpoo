@@ -10,4 +10,4 @@ Tecnologias que serão utilizadas na disciplina de ALPOO:
 * Relatórios
 * Tratamento de erros
 * Introdução a desenvolvimento Web com Java
-
+* Utilização do git/github
