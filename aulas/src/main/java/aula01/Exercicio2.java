@@ -10,7 +10,7 @@ import javax.swing.JOptionPane;
 public class Exercicio2 extends JFrame {
     String firstNumber;
     String secondNumber;
-    int number1;
+    int NUMBER1;
 
     public Exercicio2() {
         firstNumber = JOptionPane.showInputDialog(this, "Entre com o Primeiro número:");
