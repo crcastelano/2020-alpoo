@@ -1,4 +1,4 @@
-package aula01;
+package aula01.introducao.gui.swing;
 
 /**
  *

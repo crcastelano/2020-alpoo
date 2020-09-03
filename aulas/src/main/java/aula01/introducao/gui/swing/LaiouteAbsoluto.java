@@ -1,4 +1,4 @@
-package aula02;
+package aula01.introducao.gui.swing;
 
 import java.awt.Dimension;
 import javax.swing.JButton;

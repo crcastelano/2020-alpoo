@@ -1,4 +1,4 @@
-package aula01;
+package aula01.introducao.gui.swing;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
