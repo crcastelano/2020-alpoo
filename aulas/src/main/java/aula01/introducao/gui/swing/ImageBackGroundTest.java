@@ -15,14 +15,14 @@ public class ImageBackGroundTest extends JFrame {
     public ImageBackGroundTest() {
         this.setTitle("Exemplo de JFrame com JPanel e imagem de fundo");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setPreferredSize(new Dimension(800, 600));
+        this.setPreferredSize(new Dimension(1280, 1024));
         this.setVisible(true);
         this.pack();
     }
 
     private void carregarImagem(String imagem) {
         JPanel painel = new JPanel();
-        ImageIcon img = new ImageIcon(imagem);
+        ImageIcon img = new ImageIcon(getClass().getResource( imagem ));
         painel.add(new JLabel(img));
         
         this.add(painel);
@@ -30,6 +30,7 @@ public class ImageBackGroundTest extends JFrame {
 
     public static void main(String[] args) {
         ImageBackGroundTest obj = new ImageBackGroundTest();
-        obj.carregarImagem("./imagens/timao.jpg");
+        obj.carregarImagem("/imagens/timao1.jpg");
+        obj.pack();
     }
 }
