@@ -13,7 +13,7 @@
         <fieldDescription><![CDATA[USU_ATIVO]]></fieldDescription>
     </field>
     <field name="USU_ID" class="java.lang.Integer">
-        <fieldDescription><USU_ID></fieldDescription>
+        <fieldDescription><![CDATA[USU_ID]]></fieldDescription>
     </field>
     <field name="USU_NOME" class="java.lang.String">
         <fieldDescription><![CDATA[USU_NOME]]></fieldDescription>
@@ -79,7 +79,7 @@
             </textField>
             <textField>
                 <reportElement x="17" y="10" width="83" height="20" uuid="cb4cdf26-3f63-4ffd-8c06-cc24227bc40f"/>
-                <textFieldExpression><USU_ID></textFieldExpression>
+                <textFieldExpression><![CDATA[$F{USU_ID}]]></textFieldExpression>
             </textField>
         </band>
     </detail>
